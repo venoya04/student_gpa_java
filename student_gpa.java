@@ -2,6 +2,7 @@ import java.util.List;
 
 class student_gpa{
 	public static void main(String[] args){
+		/*
 		student gabs = new student();
 		gabs.setName("Benjo Gaburno");
 		gabs.setDept("CEA");
@@ -27,5 +28,17 @@ class student_gpa{
 			System.out.println(" -- Subject: " + s.getSubjectName());
 			System.out.println("    Grade is " + s.getGrade());
 		}
+		*/
+		EngSubject coe11 = new EngSubject();
+		coe11.setSubjectName("OOP Subject");
+		coe11.setGrade(70.11f);
+
+		coe11.setUnits(2,2);
+
+		boolean needsPRC = coe11.getHasPRC();
+
+		System.out.println("Coe11 name is " + coe11.getSubjectName());
+		System.out.println("Coe11 lec units are " + coe11.getLecUnits());
+		System.out.println("Coe11 lab units are " + coe11.getLabUnits());
 	}
 }
