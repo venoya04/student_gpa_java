@@ -4,7 +4,7 @@ The point of this homework is to make use of what you've learn during the lab se
 
 # Set up
 
-* This repo should be cloned automatically to your github account.
+* This repo should be cloned automatically to your github account once you click the assigment link.
 
 # Requirements
 
